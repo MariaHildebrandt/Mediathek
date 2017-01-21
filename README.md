@@ -11,6 +11,8 @@ Mediathek für Filme und Bücher. Einträge können editiert, eingesehen und gel
 
 -Layout.png zu finden in Mediathek/img
 
+-Bilder lizensfrei von www.pexels.com
+
 <p align="left">
   <img src="https://s19.postimg.org/gpc0gbi1v/layout.jpg" width="400"/>
 </p>
