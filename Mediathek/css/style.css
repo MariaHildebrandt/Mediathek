@@ -1,22 +1,153 @@
-html, body {
+
+/* Global Styles */
+body,html {
   height: 100%;
+  background:#f8e3fa;
+  font-family: 'Oswald', sans-serif;
 }
 
-#wrap {
-  min-height: 100%;
+body {
+  padding-top: 50px;
 }
 
-#main {
-  overflow:auto;
-  padding-bottom:150px; 
+/*header image*/
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 160px);
+  background: url(../img/books_header-bg.jpg) no-repeat 0px -5px;
+  background-size:cover;
+  margin-top:-50px;
 }
 
-.footer {
-  position: relative;
-  margin-top: -150px; 
-  height: 150px;
-  clear:both;
-  padding-top:20px;
-} 
+.wide img {
+  width:100%;
+}
+.quote{
+	font-family: 'Satisfy', cursive;
+	color:#363636;
+	text-align:center;
+	font-size: 22px;
+	position:relative;
+}
+#allbooks{
+	margin-top:30px;
+	padding-top:-3px;
+	text-align:center;
+}
+#allfilms{
+	margin-top:30px;
+	padding-top:-3px;
+	text-align:center;
+}
+.bottom{
+	width:100%;
+	height:40%;
+    background: -webkit-linear-gradient(#f8e3fa, transparent),url(../img/end_books_bg.jpeg) no-repeat center center; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f8e3fa, transparent),url(../img/end_books_bg.jpeg) no-repeat center center; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f8e3fa, transparent),url(../img/end_books_bg.jpeg) no-repeat center center; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f8e3fa, transparent),url(../img/end_books_bg.jpeg) no-repeat center center; /* Standard syntax (must be last) */
+	background-size: cover; 
+	margin-top:30px;
+}
+
+
+.bottom img {
+  width:100%;
+}
+
+
+
+/*Speicher und Link-Buttons (dunkelgrau)*/
+.button{
+    font-size: 15px;
+	font-weight:lighter;
+    height: 40px;
+    width: 200px;
+    background: #363636;
+    /*float: left;*/
+    text-align: center;
+    padding-top: 4px;
+    border-radius:5px;
+	border:0px;
+    color: #fff;
+    #cursor: pointer;
+   /* border-radius:5px;*/
+	text-align:left;
+	margin-bottom:10px;
+	
+}
+
+#bookButton{
+	margin-left:-40px;
+}
+#filmButton{
+	margin-left:-20px;
+}
+.button a:link, a:visited{
+	color:white;
+	text-decoration: none;
+	padding-left:10px;
+}
+
+
+.button:hover{
+    background-color:#5E5E5E;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+    
+}
+.img-hover:hover{
+    opacity:0.9;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+    
+}
+.navbar{
+}
+#wrapper{
+    width: 100%;
+    margin-top:30px;
+	margin-bottom:30px;
+}
+
+.middleimage{
+  width:100%;
+  height:60%;
+ height:calc(100% - 160px);
+  background: url(../img/middle_books_bg.jpeg) no-repeat 0px 0px;
+  #background-attachment: fixed;
+  background-size:cover;
+  margin-top:60px;
+}
+
+.wide img {
+  width:100%;
+
+}
+
+.img{
+	 box-shadow: 10px 10px 10px #363636;
+	 #box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Footer Styles */
+/* fixiert den footer am unteren Rand des Fensters */
+#footer {
+    position:fixed;
+    left:0px;
+    text-align: center;
+    font-size:10px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    color:#A9A9A9;
+}
 
   

@@ -23,7 +23,7 @@
 		elseif(empty($bookTitle)){
 			$errMSG = "Bitte tragen sie den Buchtitel ein.";
 		}
-		elseif(empty($imgFile)){v
+		elseif(empty($imgFile)){
 			$errMSG = "Bitte wählen sie ein Bild.";
 		}
 		else 
