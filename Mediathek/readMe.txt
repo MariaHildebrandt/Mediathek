@@ -1,16 +1,16 @@
-Database: "mediawebsite"
+# Mediathek
+Mediathek fÃ¼r Filme und BÃ¼cher. EintrÃ¤ge kÃ¶nnen editiert, eingesehen und gelÃ¶scht werden. Startseite zeigt neueste EintrÃ¤ge. 
 
-zu Filem gehören Poster
-und zu Büchern Pictures
-mit Classes
--Film.php
--Poster.php
--Book.php
--Picture.php
+-Bootstrap Forms, CSS
 
-Für Verbungsausbau:
-Database.php
+-PHP (PDO),SQL fÃ¼r Buch/Filmdetails
 
+-Image-Upload fÃ¼r Buchbilder un Filmposter
 
-Sites: index.php, books.php & films.php 
-Für Bücher und Filme jew. update,delete,insert,details php-Dateien
+-JavasScript: Buch/Filmzitate wechseln alle 5 Sekunden 
+
+-Layout.png zu finden in Mediathek/img
+
+-Databse: mediawebsite.sql
+
+-Bilder lizensfrei von www.pexels.com
