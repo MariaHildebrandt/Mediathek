@@ -1,11 +1,12 @@
 # Mediathek
+(work in progress)
 Mediathek für Filme und Bücher. Einträge können editiert, eingesehen und gelöscht werden. Startseite zeigt neueste Einträge. 
 
 -Bootstrap Forms, CSS
 
 -PHP (PDO),SQL für Buch/Filmdetails
 
--Image-Upload für Buchbilder un Filmposter
+-Image-Upload für Buchbilder und Filmposter
 
 -JavasScript: Buch/Filmzitate wechseln alle 5 Sekunden 
 
